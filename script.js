@@ -1,3 +1,8 @@
+{
+  const hallo = () => {
+    console.log("Witaj developerze(-rko), miłego code review ;)")
+  }
+}
 let fontColor = document.querySelector(".js-fontColor");
 let backgroundColor = document.querySelector(".js-backgroundColor");
 let border = document.querySelector(".js-border");
@@ -8,7 +13,7 @@ let mode = document.querySelector('.js-mode');
 
 let initialFontSize = 20;
 
-console.log("Witaj developerze(-rko), miłego code review ;)")
+
 
 fontColor.addEventListener('click', () => {
   body.style.color = "indigo";
