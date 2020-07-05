@@ -1,0 +1,11 @@
+footer {
+  background-color: cadetblue;
+  color: #fff;
+  border: 5px #fff double;
+  padding-left: 50px;
+}
+
+.footer__paragraph {
+  font-size: 18px;
+
+}

@@ -1,0 +1,33 @@
+.section__paragraph {
+  line-height: 40px;
+  letter-spacing: 1.5px;
+}
+
+.section__strong {
+  font-weight: normal;
+}
+
+.section__span {
+  font-weight: bold;
+}
+
+.section--buttons {
+  text-align: center;
+}
+
+.section__button {
+  display: inline-block;
+  padding: 5px;
+  background-color: cadetblue;
+  border: grey solid 2px;
+  margin: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.section__button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 3px 2px 30px 3px cyan
+}
