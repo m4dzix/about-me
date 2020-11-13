@@ -1,7 +1,6 @@
 .photo {
-
   height: 80vh;
-  background-image: url('https://cdn.pixabay.com/photo/2014/05/02/21/47/workstation-336369_960_720.jpg');
+  background-image: url("../workstation.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
