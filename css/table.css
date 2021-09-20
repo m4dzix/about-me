@@ -1,8 +1,9 @@
-table {
+.table {
   margin: 0 auto;
   border-collapse: collapse;
   border: black solid 4px;
-  box-shadow: 20px -5px 50px -2px #5F9EA0;
+  -webkit-box-shadow: 20px -5px 50px -2px #5F9EA0;
+          box-shadow: 20px -5px 50px -2px #5F9EA0;
 }
 
 .table__caption {
@@ -38,7 +39,8 @@ table {
   font-size: 25px;
   background-color: cadetblue;
 }
-.table__movieTitle{
+
+.table__movieTitle {
   background-color: rgba(95, 158, 160, 0.637);
 }
 
@@ -50,6 +52,6 @@ table {
 }
 
 th.table__cell:hover {
-
-  background-color: rgb(72, 121, 122);
+  background-color: #49797a;
 }
+/*# sourceMappingURL=table.css.map */

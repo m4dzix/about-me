@@ -1,4 +1,4 @@
-main {
+.main {
   border: solid #ccc 5px;
   padding: 5%;
   font-size: 20px;
@@ -25,5 +25,5 @@ main {
   text-transform: uppercase;
   font-family: 'Lobster Two', cursive;
   text-shadow: 4px 4px 8px cadetblue;
-
 }
+/*# sourceMappingURL=main.css.map */

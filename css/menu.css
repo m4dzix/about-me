@@ -1,5 +1,5 @@
 .menu {
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   margin: 0 auto;
   width: 100%;
@@ -7,9 +7,14 @@
 
 .menu__list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .menu__link {
@@ -20,10 +25,13 @@
   text-decoration: none;
   font-size: 30px;
   padding: 20px;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.menu__item:hover {
+.menu__link:hover {
   text-shadow: 2px 2px 4px cyan;
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
+/*# sourceMappingURL=menu.css.map */

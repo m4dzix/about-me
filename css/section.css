@@ -11,7 +11,7 @@
   font-weight: bold;
 }
 
-.section--buttons {
+.section__buttons {
   text-align: center;
 }
 
@@ -23,11 +23,15 @@
   margin: 10px;
   font-size: 20px;
   text-transform: uppercase;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .section__button:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   cursor: pointer;
-  box-shadow: 3px 2px 30px 3px cyan
+  -webkit-box-shadow: 3px 2px 30px 3px cyan;
+          box-shadow: 3px 2px 30px 3px cyan;
 }
+/*# sourceMappingURL=section.css.map */
